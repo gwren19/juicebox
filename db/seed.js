@@ -1,4 +1,4 @@
-const { client, getAllUsers, getAllPosts, createUser, createPost, updateUser, updatePost, getUserById, createTags, addTagsToPost, getPostsByTagName, createPostTag, getPostsByUser } = require('./index');
+const { client, getAllUsers, getAllPosts, createUser, createPost, updateUser, updatePost, getUserById, createTags, addTagsToPost, getPostsByTagName, createPostTag, getPostsByUser, getAllTags } = require('./index');
 
 const createInitialUsers = async () => {
     try {
